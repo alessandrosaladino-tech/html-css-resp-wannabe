@@ -128,9 +128,8 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-@media screen and (max-width: 768px) {
-    
-}
+
+ 
 
 
 @media screen and (max-width: 480px) {
@@ -163,4 +162,17 @@ img {
     .why-us .col-right {
         width: 100%;
     }
+
+    body {
+        width: 100%;
+    }
 }
+
+@media screen and (max-width: 768px) 
+{
+
+    body {
+        width: 100vh;
+    }
+}
+
